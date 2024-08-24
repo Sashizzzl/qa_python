@@ -56,10 +56,3 @@ class BooksCollector:
     def get_list_of_favorites_books(self):
         return self.favorites
 
-collector = BooksCollector()
-collector.add_new_book('1')
-collector.add_book_in_favorites('1')
-collector.add_book_in_favorites('1')
-
-print(collector.get_books_genre())
-
